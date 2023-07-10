@@ -3,12 +3,25 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   margin: 10px;
 }
 
 .drawzone {
-  height: 500px;
   border-radius: 2px;
   box-shadow: 1px 1px 1px 1px black;
+  align-self: center;
+}
+
+.drawzone.addcity {
+  box-shadow: 1px 1px 1px 1px blue;
+}
+.drawzone.delcity {
+  box-shadow: 1px 1px 1px 1px red;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }

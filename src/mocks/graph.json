@@ -1,0 +1,179 @@
+{
+  "nodes": [
+    {
+      "id": "A",
+      "title": "Node A",
+      "cost": 10,
+      "canvaNode": {
+        "x": 229,
+        "y": 137,
+        "radius": 10
+      }
+    },
+    {
+      "id": "B",
+      "title": "Node B",
+      "cost": 15,
+      "canvaNode": {
+        "x": 248,
+        "y": 251,
+        "radius": 10
+      }
+    },
+    {
+      "id": "C",
+      "title": "Node C",
+      "cost": 8,
+      "canvaNode": {
+        "x": 394,
+        "y": 216,
+        "radius": 10
+      }
+    },
+    {
+      "id": "D",
+      "title": "Node D",
+      "cost": 12,
+      "canvaNode": {
+        "x": 345,
+        "y": 305,
+        "radius": 10
+      }
+    },
+    {
+      "id": "E",
+      "title": "Node E",
+      "cost": 20,
+      "canvaNode": {
+        "x": 118,
+        "y": 361,
+        "radius": 10
+      }
+    },
+    {
+      "id": "F",
+      "title": "Node F",
+      "cost": 5,
+      "canvaNode": {
+        "x": 50,
+        "y": 250,
+        "radius": 10
+      }
+    },
+    {
+      "id": "G",
+      "title": "Node G",
+      "cost": 18,
+      "canvaNode": {
+        "x": 77,
+        "y": 85,
+        "radius": 10
+      }
+    },
+    {
+      "id": "H",
+      "title": "Node H",
+      "cost": 14,
+      "canvaNode": {
+        "x": 247,
+        "y": 28,
+        "radius": 10
+      }
+    },
+    {
+      "id": "I",
+      "title": "Node I",
+      "cost": 25,
+      "canvaNode": {
+        "x": 401,
+        "y": 101,
+        "radius": 10
+      }
+    },
+    {
+      "id": "J",
+      "title": "Node J",
+      "cost": 11,
+      "canvaNode": {
+        "x": 145,
+        "y": 192,
+        "radius": 10
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "1",
+      "source": "A",
+      "destination": "B",
+      "cost": 10
+    },
+    {
+      "id": "2",
+      "source": "B",
+      "destination": "C",
+      "cost": 15
+    },
+    {
+      "id": "3",
+      "source": "C",
+      "destination": "D",
+      "cost": 8
+    },
+    {
+      "id": "4",
+      "source": "D",
+      "destination": "E",
+      "cost": 12
+    },
+    {
+      "id": "5",
+      "source": "E",
+      "destination": "F",
+      "cost": 20
+    },
+    {
+      "id": "6",
+      "source": "F",
+      "destination": "G",
+      "cost": 5
+    },
+    {
+      "id": "7",
+      "source": "G",
+      "destination": "H",
+      "cost": 18
+    },
+    {
+      "id": "8",
+      "source": "H",
+      "destination": "I",
+      "cost": 14
+    },
+    {
+      "id": "10",
+      "source": "J",
+      "destination": "A",
+      "cost": 11
+    },
+    {
+      "id": "11",
+      "source": "A",
+      "destination": "I",
+      "cost": 17
+    },
+    {
+      "id": "19",
+      "source": "I",
+      "destination": "C",
+      "cost": 23
+    },
+    {
+      "id": "20",
+      "source": "H",
+      "destination": "A",
+      "cost": 4
+    }
+  ],
+  "type": "directed"
+}

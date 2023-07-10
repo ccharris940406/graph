@@ -6,4 +6,6 @@ Graphical representation of a graph is required, along with performing operation
 
 
 ## Todo
-- [] Make a compoent graph
+- [ ] Make a compoent graph.
+- [ ] Remove a node.
+- [ ] Link a source node to a destination node.  
